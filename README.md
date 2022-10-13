@@ -3,6 +3,7 @@
 Enter the project root directory and execute
 ```
 npm install
+npm install -g pm2
 ```
 
 ## Script usage instructions
@@ -25,5 +26,10 @@ pairData: WETHUSDC,
 * script execution
 
 ```
-node ./changeConfigAuto.js
+//start
+sh ./start.sh
+//stop
+sh ./stop.sh
+//restart
+sh ./restart.sh
 ```

@@ -21,7 +21,7 @@ npm install -g pm2
 autoSleepTime: 60 * 60 * 1000,
 //pair（i.e: WETH-USDC）
 pairData: WETHUSDC,
-
+```
 
 * script execution
 
